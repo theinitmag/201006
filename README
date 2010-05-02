@@ -1,0 +1,17 @@
+The init Magazine
+2010 June Issue
+
+* Article Naming Convention
+
+<title>_<author>.ext
+Replace spaces by '-'.
+
+eg,
+Linux-Kernel-for-Beginners_Linux-Torvalds.tex
+
+* Article Lists
+
+(put your name under <edited_by> for reservation)
+
+<s.no.> | <title> | <author> | <edit_status> | <edited_by>
+1 | FOSS: Where is the Money? | Biswas Parajuli | UNEDITED |
