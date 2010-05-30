@@ -1,0 +1,66 @@
+Gettings started with Drush (Drupal Shell)
+
+
+I was configuring a drupal site but i was having slow connections since last few days... so it kinda got irritating clicking a link and waiting for a page to load .. then again click submit button.
+Just remember how many times u have to click and number of pages u have to load just to enable a module.
+Well it just got a lot easier with drush (drupal shell)
+
+Here's how u can download,enable and use it:
+
+It indeed saves awful lot of time :)
+
+Installing Drush:
+Get latest drush download link from
+http://drupal.org/project/drush
+
+ssh to ur remote site, or just go to folder of ur localsite
+
+go to site's root folder
+$ cd example.com/html
+
+download drush:
+/$ wget http://ftp.drupal.org/files/projects/drush-All-versions-3.0.tar.gz
+
+
+u can extract it to site's root folder
+/$ tar -xzf drush-All-versions-3.0.tar.gz
+
+Using Drush:
+
+once installed, the only thing u need to do from now on is,
+use it to download/enable/disable modules u want (btw, u shud know the correct names of the modules)
+/$ drush/drush dl module_name1 module_name2 
+
+Example:
+/$ drush/drush dl recaptcha 
+/$ drush/drush en recaptcha
+
+it might show errors.. because recaptcha module depends on another module "captcha"
+
+so now to resolve dependency download the "captcha" module, and then enable the recaptcha module
+/$ drush/drush dl captcha
+/$ drush/drush en recaptcha
+
+OR if u already know the dependencies then u can just download both modules in one command and enable it:
+/$ drush/drush dl captcha recaptcha
+/$ drush/drush en recaptcha
+
+
+To disable a module
+/$ drush/drush dis recaptcha
+
+
+and now to uninstall
+/$ drush/drush pm-uninstall recaptcha
+
+These are the basic and pretty simple drush commands that are often used.
+
+
+For other advanced drush commands simply type:
+/$ drush/drush
+
+
+OR refer:
+http://groups.drupal.org/drush/commands
+
+PS: u can add 'path/to/drush' as an alias in .bashrc ... for more info on this refer to drush/README.txt file
