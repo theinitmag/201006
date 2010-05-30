@@ -1,0 +1,68 @@
+                                   A quick review on Fedora 13
+Distro Name: Fedora
+Base: Fedora
+Kernel Version: 2.6.34
+
+Fedora 13 combines some of the latest open source features with an open and transparent
+development process. Fedora 13 includes a variety of features and improvements to enhance
+desktop productivity, assist in software development, and improve virtualization.
+
+"Fedora continues to help advance free and open source software and content," said Paul Frields,
+Fedora Project Leader at Red Hat. "This release comes just six months after the release of Fedora
+12, and it incorporates technologies built by free software developers around the globe. The Fedora
+Project reciprocates by contributing everything built in Fedora back to the open source community."
+Fedora 13 includes several new features with special focus on desktops, netbooks, virtualization and
+system administration. Its robust feature set includes:
+
+Simpler installation and device access
+
+The user interface of Anaconda, the Fedora installer, has changed to handle storage devices and
+partitioning in an easier and more streamlined manner, with helpful hints in the right places. Once
+installed, Fedora automatically offers driver installation when the user plugs in a printer. Software
+applications for instant or scheduled data backups, photo management, and scanning make it easier
+for users to load, edit, share, and secure their content. Color management offers creative users the
+ability to produce more color-accurate art and photos, from loading to display to printing.
+
+Accelerated 3D graphics using free drivers
+
+In previous releases, Fedora introduced free and open source 3D drivers for Intel and ATI video
+cards. In Fedora 13, a variety of Nvidia graphics cards can now be 3D enabled to support free
+software games and an enhanced desktop experience. New DisplayPort connectors are now
+supported on ATI and Nvidia cards as well. These free drivers are expected to be enhanced over the
+course of Fedora 13 and beyond, and become part of the platform for the next-generation free
+desktop including GNOME 3.
+
+Virtualization enhancements
+
+Fedora continues to be a leader in virtualization technologies and is one of the leading contributors
+of key technologies like Kernel-based Virtual Machine (KVM), libvirt and virt-manager. Fedora 13
+adds support for stable PCI addresses, enabling virtual guests to retain PCI addresses' space on a
+host machine and expanding opportunities for large-scale automation of virtualization. New shared
+network interface technology enables virtual machines to use the same physical network interface
+cards as the host operating system. Fedora 13 also features improvements in performance for KVM
+networking and large multi-processor systems. These features offer savvy technologists the
+opportunity to experience virtualization innovations before they are seen in later releases of Red Hat
+Enterprise Linux.
+
+Enhanced software development and debugging
+
+Fedora 13 includes new support that allows developers working with mixed libraries (Python and
+C/C++) in Fedora to get more complete information when debugging with gdb, making rapid
+application development even easier. The SystemTap utility adds support for static probes, giving
+programmers expanded capabilities to improve and optimize their code. And with new support for
+userspace processes, developers can instrument code written in high level languages such as
+Python, database applications, and more.
+
+Expanded Btrfs features
+
+Fedora continues to be a key contributor to Btrfs development, and adds support for filesystem
+snapshots in Fedora 13. Plugin support for snapshots allows administrators to experiment with
+software updates and more easily revert the system as needed. As in previous releases, advanced
+users can enable experimental Btrfs support in the installation process to try out this next-generation
+file system.
+
+~Chandan Prasad Gupta, President, PhilOSS, Mysore
+gupta.chandan1@gmail.com
+reference: http://www.muktware.com/distromatch/25/2010/140
+
+
